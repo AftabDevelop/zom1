@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(253,243,243);
+}
+.card{
+    display: inline-block;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid  rgb(253,243,243);
+}
+.card:hover{
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+.res-name{
+    /* position: relative; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.box{
+    display: inline-block;
+}
+.img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+.food-name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.rating{
+    margin-left: 96px;
+    background-color: green;
+    color: white;
+    width: 20px;
+}
+.food-info{
+    position: relative;
+}
+.price{
+    margin-left: 126px;
+}
+.location{
+    position: relative;
+}
+.distance{
+    margin-left: 78px;
+}
+.zomato{
+    margin-left: 70px;
+}
+/* header */
+.box1{
+    display: inline-block;
+    margin: 10px;
+}
+.first,.second{
+    margin-left: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.brand{
+    color: rgb(216,5,5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.search-eng{
+    position: relative;
+    bottom: 12px;
+    margin-right: 50px;
+    width: 300px;
+    height: 30px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: rgb(86, 81, 81);
+    font-size: 15px;
+}
+.head{
+    background-color: white;
+    /* margin-right: 20px; */
+    width: auto;
+}
+.img2,.img3,.img4{
+    height: 70px;
+    width: 70px;
+}
+.d1,.d2,.d3{
+    position: relative;
+    bottom: 22px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(198, 159, 159);
+}
+.second{
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+}
+
+.third{
+    display: flex;
+    /* margin: 10px; */
+    padding: 10px;
+    margin-left: 30px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    margin-left: 50px;
+}
+.p1,.m1,.c1,.r1,.b1{
+    margin-left: 53px;
+}
+.w1{
+    margin-left: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flat{
+    position: relative;
+    color: white;
+    background-color: rgb(165, 84, 84);
+    width: 150px;
+    bottom: 20px;
+    font-size: 1rem;
+}
